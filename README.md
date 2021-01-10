@@ -1,6 +1,6 @@
 # art-portfolio
 
-<h3> Made as the Final for my intro to web fundamentals class (2019).</h3>
+<h3> Made as the Final for my intro to web fundamentals class (late? 2019).</h3>
 
 This was made using <strong> HTML</strong> and <strong> CSS</strong> with a few lines of embedded <strong> javascript</strong>. 
 
