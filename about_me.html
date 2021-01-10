@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="about_me.css"
+        type="text/css"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|VT323&display=swap" rel="stylesheet">
+    <script>
+	function changeColor( )
+{
+ document.getElementById("pinkText").onclick = function(){
+	document.getElementById("output").style.color = '#FFA6AB';
+}
+  }
+  </script>
+     </head>
+     
+    <body>
+        <ul>
+  <li><a class="active" href="about_me.html">About Me</a></li>
+  <li><a href="traditional_art.html">Traditional Art</a></li>
+  <li><a href="digital_art.html">Digital Art</a></li>
+  <li><a href="contact_me.html">Contact Me</a></li>
+    </ul>
+
+    <div>
+        </br>
+        <h1>About Me</h1>
+    <p id="text">
+    <img src= "me.jpg" alt="Picture of Me"  width="25%" height="25%"/>
+   </br> 
+   </br>
+    <span id= "output">    My name is Stephannie Sipaque, I am from Plainfield, New Jersey. I am the
+   oldest child out of three, I have two younger brothers. I am currently a 
+   student at The College of New Jersey where I am studying to become a web 
+   developer. I am a self-taught artist who does digital and traditional art. I
+   have been drawing since I can remember, I have always loved art and cartoons.
+   I draw with various mediums such as watercolor, pencil, markers, colored pencils,
+   and oil pastels just to name a few. I especially enjoy drawing characters and am
+   capable of drawing in different styles, but I prefer more stylized art as they 
+   tend to be more fun for me to make.</span>
+    </p>
+    </div>
+    
+    <button id= "pinkText" type="button" rows="4" cols="30" onclick="changeColor( )">Pink Text</button>
+    
+    </body>
+</html>
+     

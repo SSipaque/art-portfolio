@@ -1,0 +1,71 @@
+
+body {
+  background-color: #d3ffce;
+}
+
+h1 { 
+  color:#FFA6AB;
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+   font-size: 35px;
+}
+
+p {
+  color: #3C623A;
+  font-family: 'VT323', monospace;
+  text-align: center;
+   font-size: 22px;
+   font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #FFA6AB;
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #0067D2;
+}
+.active {
+  background-color: #0086B9;
+}
+
+label {
+  color: #546652;
+  font-family: 'VT323', monospace;
+  text-align: center;
+   font-size: 22px;
+   font-weight: bold;
+  margin: 35%;
+  width: 100%;
+}
+
+
+button {
+  color: #546652;
+  font-family: 'VT323', monospace;
+  text-align: center;
+   font-size: 22px;
+   font-weight: bold;
+  margin: 58%;
+  margin-top: 1%;
+}
